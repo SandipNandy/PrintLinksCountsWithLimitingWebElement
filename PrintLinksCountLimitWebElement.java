@@ -35,6 +35,7 @@ public class PrintLinksCountLimitWebElement {
 		while(itr.hasNext()) {
 			
 			Thread.sleep(2000);
+			
 			driver.switchTo().window(itr.next());
 			Thread.sleep(2000);
 			System.out.println(driver.getTitle());
