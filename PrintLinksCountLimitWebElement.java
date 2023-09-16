@@ -27,6 +27,7 @@ public class PrintLinksCountLimitWebElement {
 
 		}
 		Set<String> GetTabTitle = driver.getWindowHandles();
+		
 		Iterator<String> itr = GetTabTitle.iterator();
 		driver.switchTo().window(itr.next());
 		while(itr.hasNext()) {
