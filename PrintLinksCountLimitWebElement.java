@@ -33,6 +33,7 @@ public class PrintLinksCountLimitWebElement {
 		driver.switchTo().window(itr.next());
 		
 		while(itr.hasNext()) {
+			
 			Thread.sleep(2000);
 			driver.switchTo().window(itr.next());
 			Thread.sleep(2000);
