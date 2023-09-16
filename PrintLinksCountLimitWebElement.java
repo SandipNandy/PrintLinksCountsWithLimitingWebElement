@@ -26,7 +26,6 @@ public class PrintLinksCountLimitWebElement {
 		columnDriver.findElements(By.tagName("a")).get(i).sendKeys(ClickKeyboard);
 
 		}
-		
 		Set<String> GetTabTitle = driver.getWindowHandles();
 		Iterator<String> itr = GetTabTitle.iterator();
 		driver.switchTo().window(itr.next());
