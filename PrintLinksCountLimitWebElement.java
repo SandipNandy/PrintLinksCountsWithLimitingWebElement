@@ -36,6 +36,7 @@ public class PrintLinksCountLimitWebElement {
 		Actions a= new Actions(driver);
 		for(int i=1;i<Number;i++) {
 			String ClickKeyboard= Keys.chord(Keys.CONTROL,Keys.ENTER);
+			
 		columnDriver.findElements(By.tagName("a")).get(i).sendKeys(ClickKeyboard);
 
 		}
