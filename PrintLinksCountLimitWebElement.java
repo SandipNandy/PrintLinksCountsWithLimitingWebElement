@@ -27,6 +27,7 @@ public class PrintLinksCountLimitWebElement {
 		WebElement FooterDriver=driver.findElement(By.id("gf-BIG"));
 		
 	        System.out.println(FooterDriver.findElements(By.tagName("a")).size());
+		
 		WebElement columnDriver= FooterDriver.findElement(By.xpath("//tbody/tr/td/ul"));
 		System.out.println(columnDriver.findElements(By.tagName("a")).size());
 		int Number=columnDriver.findElements(By.tagName("a")).size();
