@@ -23,6 +23,7 @@ public class PrintLinksCountLimitWebElement {
 	       WebDriver driver=new ChromeDriver();
 		
 	       driver.manage().window().maximize();
+		
 	       driver.get("https://AutomationPractice/");
 	       System.out.println(driver.findElements(By.tagName("a")).size());
 		
