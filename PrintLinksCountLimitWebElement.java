@@ -17,7 +17,6 @@ public class PrintLinksCountLimitWebElement {
 	       System.out.println(driver.findElements(By.tagName("a")).size());
 	       //Making a child driver from main or parent driver this is called limiting web driver scope
 		WebElement FooterDriver=driver.findElement(By.id("gf-BIG"));
-		
 	        System.out.println(FooterDriver.findElements(By.tagName("a")).size());
 		
 		WebElement columnDriver= FooterDriver.findElement(By.xpath("//tbody/tr/td/ul"));
